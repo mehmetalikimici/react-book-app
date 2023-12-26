@@ -1,0 +1,21 @@
+.modal-wrapperr{
+    background-color: rgba(128, 128, 128, 0.315);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-innerr{
+    background-color: white;
+    padding: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
